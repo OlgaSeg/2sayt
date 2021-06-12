@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    padding: 0 0 40px 0;
+    margin-top:94px ;
+
+}
+
+.header h2 {
+    padding-top:0 ;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 62px;
+}
+
+.menu  img
+{
+    height: 24px;
+    width: 4px;
+    padding-left: 151px;
+    padding-top: 108px;
+    margin:33%;
+}
+
+
+.logo img{
+    width: 174px;
+    height: 50px;
+    MARGIN:0 auto;
+    padding-top: 77px;
+}
+.sis img
+{
+
+    margin:40px auto 130px;
+}
+
+.socseti img {
+    width: 102px;
+    height: 24px;
+}
+.header div
+ {
+    width: 33%;
+    float: left;
+    overflow: hidden;
+}
+
+
+.main, .footer 
+{
+    height: 740px;
+}
+
+body {
+    width: 1440px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    padding: 0 auto;
+}
+
+.main {
+    background-color: #FCDB00;
+}
+
+.content {
+    height: 872px;
+    background-color: #fff;
+}
+
+.content div {
+    width:33%;
+    float:left;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #000;
+    width: 1440px;
+    height: 740px;
+}
+
+
+p {
+    font-family: PT Sans;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 754px;
+    height: 102px;
+    margin: 0 auto ;
+    padding:0 0 40px;
+
+}
+
+.content h2 {
+    padding: 82px 343px 40px 343px;
+}
+
+.footer p {
+    color: #8B8A8B;
+
+}
+
+.footer h2 {
+    color: #FCDB00;
+
+}
+
+.odin {
+    width: 560px;
+    height: 50px;
+    padding: 40px 343px 80px 538px;
+    margin-right: 20px;
+}
+
+.dva {
+    width: 174px;
+    height: 50px;
+    background-color: #FCDB00;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.fot1 {
+    width: 367px;
+    height: 155px;
+    padding: 0 923px 158px 150px;
+    font-Size: 18px;
+    Line-height: 27px;
+}
