@@ -19,11 +19,13 @@ h1 {
 
 h2 {
     font-size: 40px;
+    width: 754px;
+    height: 102px;
+    margin-top: 77px;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     margin-bottom: 40px;
 }
 
@@ -44,7 +46,9 @@ h3 {
     text-align: right;
 }
 
-.logo {
+.logo,
+.content,
+.footer {
     text-align: center;
 }
 
@@ -54,17 +58,46 @@ h3 {
     width: 754px;
     margin: 100px auto;
 }
-.description
-{
+
+.description {
     text-align: center;
     font-size: 27px;
-    line-height:40px;
-    
+    line-height: 40px;
+
 }
 
 
-.content {
+.content,
+.content>div {
     background-color: #ffffff;
+    color: #010101;
+
+}
+
+.contentnaya_oblast {
+    overflow: hidden;
+
+}
+
+.contentnaya_oblast>div {
+    width: 33.33333%;
+    float: left;
+
+}
+
+.co1>p,
+.co2>p,
+h3 {
+    width: 270px;
+    /* text-align: center; */
+    line-height: 27px;
+    margin: 0 150px 0px;
+
+}
+
+h3 {
+    margin: 0 150px 20px;
+    line-height: 35px;
 }
 
 .footer {
