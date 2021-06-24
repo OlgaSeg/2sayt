@@ -173,7 +173,17 @@ input[type="button"] {
     width: 367px;
     height: 155px;
 }
-a
+.nav_slider>li
 {
-    text-align: center;
+    width: 10px;
+    height: 10px;
+    background-color: #fff000;
+    border-radius: 5px;
+    box-shadow:inset 2px 2px 2px 2px #ffffff; 
+     
 }
+.menyushka
+{
+    margin: 0 500px 0;
+}
+
