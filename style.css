@@ -77,8 +77,19 @@ li {
     list-style-type: none;
     float: left;
     margin-right: 10px;
+    }
+    
+li:hover
+{
+    background-color: #f53a0b;
+    border: 1px solid black;
+    
 }
-
+li:active
+{
+    /* background-color: #f57c0b; */
+    border: 1px solid black;
+}
 
 .content,
 .content>div {
@@ -113,7 +124,7 @@ h3 {
 p {
     width: 754px;
     height: 102px;
-    margin: 0 auto 40px;
+    margin: 0 0 40px;
 }
 
 .container {
@@ -121,6 +132,12 @@ p {
     margin: 0 auto;
     padding: 75px 0;
 }
+
+.container2>p, .container>p
+{
+    margin:0 auto 0;
+}
+
 
 .container2>h2 {
     color: #FCDB00;
@@ -134,10 +151,11 @@ p {
     background-color: #010101;
 }
 
-input[type="email"] {
+input[type="email"] 
+{
     width: 560px;
     height: 50px;
-    margin: 0 20px 80px 343px;
+    margin: 0 0 80px 343px;
     float: left
 }
 
@@ -145,7 +163,7 @@ input[type="button"] {
     background-color: #FCDB00;
     width: 174px;
     height: 50px;
-    margin: 0 auto 80px;
+    margin: 0 0px 80px 20px;
 }
 
 .foot2,
@@ -159,8 +177,7 @@ input[type="button"] {
 
 .foot {
     overflow: hidden;
-    /* width: 1440px;
-    height: 740px; */
+     width: 100%;
     margin: 0 150px;
 }
 
@@ -184,6 +201,7 @@ input[type="button"] {
 }
 .menyushka
 {
-    margin: 0 500px 0;
+    margin: 0 auto 0;
+    width: 60px;
 }
 
